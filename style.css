@@ -21,8 +21,7 @@ header {
     z-index: 1000;
 }
 
-
-header h1{
+header h1 {
     font-family: helvetica, sans-serif;
     color: #7c1c67;
     font-weight: bolder;
@@ -30,13 +29,25 @@ header h1{
     margin-top: 0;
 }
 
+footer {
+    text-align: center;
+    background-color: #2E302D;
+    color: white;
+    padding: 20px;
+    min-width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
 
 .site-identity {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 95%;
-    margin: 0;          
+    margin: 0;
 }
 
 .logo {
@@ -44,7 +55,7 @@ header h1{
     width: auto;
 }
 
-.site-identity img{
+.site-identity img {
     border-radius: 50%;
 }
 
@@ -147,4 +158,64 @@ header h1{
     margin-left: 50px;
     font-family: sans-serif;
     font-size: 20px;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.title {
+    color: #7c1c67;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 0;
+}
+
+.login-header {
+    background-color: #8BC34A;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-header img {
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.login-form {
+    padding: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #8BC34A;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-form button:hover {
+    background-color: #7AAE3A;
 }
